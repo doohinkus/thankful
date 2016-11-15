@@ -22,7 +22,7 @@ font-family: 'Hind Vadodara', sans-serif;
   background-repeat: no-repeat;
   background-size: 100%;
   min-height: 600px;
-  min-width: 100vw;
+  min-width: 90vw;
   position: relative;
   /*margin: -5%;*/
 }
@@ -81,7 +81,7 @@ font-family: 'Hind Vadodara', sans-serif;
   background-color: white;
 margin:auto;
 text-align: center;
-width:1200px;
+/*width:1200px;*/
 
 
 }
