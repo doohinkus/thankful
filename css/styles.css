@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Chathura|Hind+Vadodara:300|Syncopate');
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -box-sizing: border-box;
+}
+
+* {
+  margin:0;
+  padding:0;
+}
+body {
+  /*font-family: 'Syncopate', sans-serif;*/
+font-family: 'Hind Vadodara', sans-serif;
+/*font-family: 'Chathura', sans-serif;*/
+}
+
+#header {
+  background-image: url(https://d2rdrr51ez8te0.cloudfront.net/hero-posters/fields.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 600px;
+  min-width: 100vw;
+  position: relative;
+  /*margin: -5%;*/
+}
+
+#header:before, #header:after {
+    box-sizing: border-box;
+    content: " ";
+    position: absolute;
+    top:0;
+    display: block;
+    width: 50%;
+    height: 100%;
+    border: 30px solid transparent;
+    border-bottom-color: white;
+}
+
+#header:before {
+    left: 0;
+    border-right: 20px solid transparent;
+    border-left: 0;
+}
+
+#header:after {
+    right: 0;
+    border-left: 20px solid transparent;
+    border-right: 0;
+}
+
+.nav {
+  color: white;
+  font-size: 1.5em;
+  float: right;
+  margin: 60px 60px 0 0;
+  }
+
+.tiles {
+  text-align: center;
+  display:block;
+
+
+  width: 300px;
+  display:inline-block;
+  padding: 3em;
+
+}
+#ps{
+  color:white;
+  text-align: center;
+  margin: auto;
+  display: block;
+  font-style: italic;
+  margin-top: 15px;
+}
+#content {
+
+  background-color: white;
+margin:auto;
+text-align: center;
+width:1200px;
+
+
+}
+
+#logo {
+  padding-top: 15px;
+  padding-left: 60px;
+  float: left;
+}
+
+#logo::after {
+  content: "THANKFUL";
+  color: white;
+  font-size: 3em;
+  position: relative;
+  top: -45px;
+  left: 13px;
+  font-weight: lighter;
+}
+
+#tag1 {
+  display: block;
+  clear: both;
+  color: white;
+  font-size: 3.9em;
+}
+
+#tag2 {
+  color: white;
+  font-size: 8.5em;
+  font-weight: bolder;
+  margin-top: -30px;
+}
+
+#tagline {
+  clear: both;
+    /*padding: 50px 175px 0 125px;
+    margin: 100px;*/
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#button {
+  background-color: tomato;
+  color: white;
+  font-size: .85em;
+  height: 40px;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 5px 0 5px;
+}
+
+hr {
+  width: 1000px;
+  text-align: center;
+  display:block;
+  margin: 0 auto;
+}
+
+/*#triangle {
+  display: inline-block;
+  margin: 0 auto;
+
+}*/
+/*#triangle:after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 30px;
+
+  background: white;
+  transform: skew(45deg) rotate(45deg);
+}
+#triangle:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 30px;
+
+  background:white:;
+  transform: skew(-45deg) rotate(-45deg);
+}*/
+
+/*#left-of-triangle,
+#right-of-triangle {
+  background-color: white;
+  height: 36px;
+  float: right;*/
+  /*width: 47.46vw;*/
+  /*width:45%;
+}*/
+
+/*#left-of-triangle {
+  float: left;*/
+  /*width: 47.46vw;*/
+  /*width:45%;
+}*/
+
+
+
+/*#header-footer {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -10px;
+  width: 100vw;
+}*/
